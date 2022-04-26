@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dumpdata>
+
+    <module name="tlc_crm_crud">
+
+    <MCMFieldSQLTable ID="MCMFieldSQLTable:ID:CO:2" TABLE_NAME="EmployeeDetails"/>
+
+    <MCMDataProvider ID="MCMDataProvider:ID:CO:2" TYPE="2" NAME="employee">
+        <MCMFields ID="MCMFields:ID:CO:3" NAME="id" DISPLAY_NAME="employee_id" PRIMARY="true" SORT="2" SEARCHABLE="false" ORDER="3" HIDDEN="true">
+            <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:3" TABLE_ID="MCMFieldSQLTable:ID:CO:2" COLUMN="ID" TYPE="" FLAG=""/>
+        </MCMFields>>
+        <MCMFields ID="MCMFields:ID:CO:4" NAME="name" DISPLAY_NAME="employee_name" SORT="2" SEARCHABLE="true" ORDER="4" HIDDEN="false">
+            <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:4" TABLE_ID="MCMFieldSQLTable:ID:CO:2" COLUMN="NAME" TYPE="" FLAG=""/>
+        </MCMFields>
+        <MCMFields ID="MCMFields:ID:CO:5" NAME="age" DISPLAY_NAME="employee_age" SORT="2" SEARCHABLE="true" ORDER="5" HIDDEN="false">
+            <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:5" TABLE_ID="MCMFieldSQLTable:ID:CO:2" COLUMN="NAME" TYPE="" FLAG=""/>
+        </MCMFields>
+    </MCMDataProvider>
+</module>
+
+</dumpdata>
